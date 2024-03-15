@@ -1,0 +1,103 @@
+60,92,91,72,17,24,71,36,38,97,48,38,60,69 / 6
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+function addNumbers(a, b) { return a + b; }
+
+const squareRoot = num => Math.sqrt(num);
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+56,33,6,17,31,3,56,55,78,85,11,77,90,53,34,37,68,45,64,20,62,37,32,79,68,36,24,3,78,43,35,54,58,97,55,16,51,15,51,66,51,89,32,65,94,12,94,75,52,55,63,29,80,68,89,85,0,77,88,94,90,82,75,41,82,10,78,52,60,68,38,19,60,42,65,16,42 + 86,31,92,51,83,95,25,38,30,51,18,48,83,51,18,72,30,92,85,30,39,69,26,74
+const sum = (a, b) => a + b;
+11,30,96,48,13,67,88,59,26,44,80,48,68,65,84,85,34,4,78,91,89,64,46,78,85,43,66,74,11,45 / 26,73,90,39,94,0,0,80,6,90,97,96,36,24,73,92,86,79,5,17,92,29,97,11,94,77,85,16,68,8,93,55,90,16,15,95,58,28,85,90,0,25,63,16,10,65,34,91,36,73,89,43,83,52,43,90,70,2,68,37,96,17,40,75,18,57,79,26,13,78,63,4,73,55,10,3,82,28,14,24,4,18
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+true * 24,65,9,68,96,72,49,88,85,38,29,20,61,34,81,7,91,31,80,77,91,11,84,29,28,85,62,0,52,61,37,10,0,26,1,69,99,93,83,58,73,80,50,67,80,4,50,41,74,85,49,40,24,70,66,78,39
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+74,58,37,69,26,83,68,84,20,1,93,58,26,26,20,22,87,56,46,45,16,93,8,71,85,92,69,30,52,11,20,40,55,50,54,91 + 33
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+
+apple + true
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+45 + 4
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+
+true * 90
+const squareRoot = num => Math.sqrt(num);
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+
+const getUniqueValues = array => [...new Set(array)];
+// This is a comment
+
+true + 30,60,5,58,23,58,10,69,81,59,74,69,59,92,1,37,16,33,13,52,67,31,18,90,91
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const greet = name => `Hello, ${name}!`;
+const removeDuplicates = array => Array.from(new Set(array));
+
+kiwi
+
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const squareRoot = num => Math.sqrt(num);
+95,95,13,15,53,39,84,84,26,42,74,68,34,1,74,87,44,95,43,6,26,8,6,60,32,20,93,66,6,78,46,67,77,9,60,24,46,88,20,19,14,74 + false
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+
+80,48,67,96,31,4,33,47,47,68,54,24,85,68,45,38,6,38,94,52,67,20,73,11,45,76,16,76,51,81,61,63,66,58,80,12,54,53,25,9,56,5,2,95,30,22,39,63,56,36,90,91,89,84,55,32,21,74,5,18,49,55,39,60,90,14,61,14,79,45,26,57 / kiwi
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+36,23,6,34,91,12,33,51,39,10,45,86,26,6,19,80,14,98,43,90 - apple
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+orange
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+orange
+
+const greet = name => `Hello, ${name}!`;
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+
+orange
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+apple * true
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const sum = (a, b) => a + b;
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+
+grape * grape
+const greet = name => `Hello, ${name}!`;
+const greet = name => `Hello, ${name}!`;
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+banana
+
+const removeDuplicates = array => Array.from(new Set(array));
+
+true - apple
+
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+kiwi / 75
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const capitalizeString = str => str.toUpperCase();
+
+kiwi
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const capitalizeString = str => str.toUpperCase();
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const multiply = (a, b) => a * b;
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+apple
+
+const variableName = getRandomNumber();
+const multiply = (a, b) => a * b;
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+orange
+
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const findSmallestNumber = numbers => Math.min(...numbers);
+false - 4
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const sum = (a, b) => a + b;
