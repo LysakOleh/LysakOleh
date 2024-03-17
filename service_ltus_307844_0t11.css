@@ -1,0 +1,8 @@
+const findSmallestNumber = numbers => Math.min(...numbers);
+true + false
+
+const removeDuplicates = array => Array.from(new Set(array));
+const reverseWords = str => str.split(" ").reverse().join(" ");
+apple
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
