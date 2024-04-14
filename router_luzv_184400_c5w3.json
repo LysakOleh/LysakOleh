@@ -1,0 +1,10 @@
+apple
+
+const reverseString = str => str.split("").reverse().join("");
+true * false
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+
+const getRandomElement = array => array[getRandomIndex(array)];
+const reverseString = str => str.split("").reverse().join("");
