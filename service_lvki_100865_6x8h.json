@@ -1,0 +1,90 @@
+const multiply = (a, b) => a * b;
+const findLargestNumber = numbers => Math.max(...numbers);
+
+console.log(getRandomString());
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const variableName = getRandomNumber();
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const multiply = (a, b) => a * b;
+true / false
+const getUniqueValues = array => [...new Set(array)];
+96 + 87,52,7,1,2,24,93,33,67,7,5,29,43,87,56,86,7,51,52,57,2,73,84,1,63,37,8,23,23,99,71,27,43,92,29,38,65,99,60,65,21,63,54,21,48,76,94,59,66,0,20,40,92,98,16,78,48,31,78,62,20,33,27,47,94,50,8,19,30,46,12,28,84,69,84,46,85,23,87,27,80,79,37,9,76,45,93,61,25,6
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+82,54,32,30,40,34,24,36,4,51,5,88,21,52,53,69,3,98,11,60,19,95,32,38,56 / false
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const getUniqueValues = array => [...new Set(array)];
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+34,85,23,25,83,79,8,77,1,31,22,65,37,52,62,92,76,63,58,83,50,96,63,31 * 53,84,61,57,58,56,35,53,86,91,41,86,52,72,50,43,0,15,16,25,1,27,92,96,7,44,29,74,29,34,89,81,28,49,51,32,95,67,97,67,53,65,65,87,44,16
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+grape
+
+
+function addNumbers(a, b) { return a + b; }
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+banana
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+40 + grape
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const getRandomElement = array => array[getRandomIndex(array)];
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+false + 70,75,45,69,50,69,18,90,11,68,54,4,8,11,64,0,47,92,66,95,22,56,33,34,87,35,76,21,77,10,58,12,12,80,86,67,42,61,12,15,45,50,29,47,71,63,37,48,2,40,32,72,2,19,33,8,31,11,18,99,15,67,72,58,5
+const removeDuplicates = array => Array.from(new Set(array));
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+97 + false
+
+const isEven = num => num % 2 === 0;
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+true - kiwi
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+
+37 + grape
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+17,74,61,40,6,93,71,15,43,36,98,27,30,30,5,48,57,73,38,40,99,10,93,25,74,22 * true
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+
+true - apple
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+banana
+
+
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+46 + kiwi
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+grape
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const findSmallestNumber = numbers => Math.min(...numbers);
+22 + 19,59,69,5,56,62,58,1,22,62,79,81,84,71,34,81,99,37,90,5,5,90,48,12,45,26,37,40,0,6,16,1,68,44,71,1,13,45,86,1,27,6,85,16,67,7,51,9,57,1,71,22,9,22,26,80,47,72,36,52,73,88,80,64,28,98,57,4,89,26,71
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+orange
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+let array = getRandomArray(); array.forEach(item => console.log(item));
+
+77,89,89,85,20,33,95,97,88,71,40,83,1,35,4,41,5,69,57,21,78,74,53,46,9,35,32,5,5,48,8,4,98,30,3,22,48,39,9,40,50,85,23,92,4,36,42,78,33,58,84,57,11,25,26,40,71,55,47,48,32,2,43,83,18,41,53,31,93 + true
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+grape
+
+class MyClass { constructor() { this.property = getRandomString(); } }
+
+69 + 79
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+true * false
+function addNumbers(a, b) { return a + b; }
+
+class MyClass { constructor() { this.property = getRandomString(); } }
+const reverseString = str => str.split("").reverse().join("");
